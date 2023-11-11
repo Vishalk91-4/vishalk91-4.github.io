@@ -1,0 +1,57 @@
+# site settings
+
+title: Vishal from IIT BHU
+description: Portfolio site and blog for Vishal
+taglong: Portfolio site and blog for Vishal
+tagshort: Vishal's site
+url: https://vishalk91-4.github.io
+baseurl: ""
+permalink: pretty
+repo: https://github.com/vishalk91-4/vishalk91-4.github.io
+
+# author settings
+
+author:
+  name: Vishal from IIT BHU
+  email: korada.vishal.phe22@itbhu.ac.in
+photo: /assets/jpg/photo.jpg
+
+# social media links
+
+social:
+  github: vishalk91-4
+  twitter: vishalk2267
+
+# build settings
+
+exclude:
+- LICENSE
+- README.md
+
+plugins:
+- jekyll-feed
+- jekyll-gist
+- jekyll-paginate-v2
+- jekyll-seo-tag
+- jekyll-sitemap
+
+whitelist:
+- jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
