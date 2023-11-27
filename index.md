@@ -21,5 +21,4 @@ I'm Vishal, a student, and developer from India.
 [Click here](/Vishal91-4-Portfolio/) to see the full CV, and [here](/cv.pdf) to download a print version. The theme also ships with a blog: [click here](/posts) to scroll posts from the most recent. Finally, [click here](/404) to see a suprise page.
 
 **Below is a list of my monthly Blogs**.
-
 {% include archive.html %}
